@@ -1,0 +1,14 @@
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_ERROR = 'LOGIN_ERROR';
+export const LOAD_USER = 'LOAD_USER';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGOUT = 'LOGOUT';
+export const ADD_TODO = 'ADD_TODO';
+export const TODO_ERROR = 'TODO_ERROR';
+export const GET_TODO = 'GET_TODO';
+export const GET_TODO_ID = 'GET_TODO_ID';
+export const GET_TODO_ERROR = 'GET_TODO_ERROR';
+export const DELETE_TODO = 'DELETE_TODO';
+export const DELETE_TODO_ERROR = 'DELETE_TODO_ERROR';
+export const EDIT_TODO = 'EDIT_TODO';
+export const EDIT_TODO_ERROR = 'EDIT_TODO_ERROR';

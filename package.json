@@ -1,0 +1,32 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "'todo app'",
+  "main": "app.js",
+  "scripts": {
+    "start": " node app",
+    "app": "nodemon app",
+    "todo": "npm start --prefix todo-list",
+    "dev": "concurrently \"npm run app\" \"npm run todo\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.5.4",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "bootstrap4-toggle": "^3.6.1",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.28",
+    "react-moment": "^0.9.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
