@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb://localhost/todo1",
+  "jwtSecret": "mysecrettoken"
+}

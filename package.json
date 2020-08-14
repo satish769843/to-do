@@ -7,7 +7,8 @@
     "start": " node app",
     "app": "nodemon app",
     "todo": "npm start --prefix todo-list",
-    "dev": "concurrently \"npm run app\" \"npm run todo\""
+    "dev": "concurrently \"npm run app\" \"npm run todo\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix todo-list && npm run build --prefix todo-list"
   },
   "author": "",
   "license": "ISC",
