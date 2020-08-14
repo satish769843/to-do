@@ -93,9 +93,7 @@ const TodoForm = ({
                     <input
                       type='date'
                       name='date'
-                      defaultValue={
-                        <Moment format='DD/MM/YYYY'>{todo.date}</Moment>
-                      }
+                      Value={date}
                       onChange={e => onChange(e)}
                       className='form-control'
                     />
